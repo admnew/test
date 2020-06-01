@@ -29,3 +29,4 @@ team project GIT and GIT hub
 17:git commit -m "first java" HelloWorld.java
 18:git push -u origin master
 
+Testing.com news/2020/june
