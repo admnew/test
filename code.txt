@@ -1,0 +1,31 @@
+memindahkan button minimaze,close,maximize
+ke kiri : gsettings set org.gnome.desktop.wm.preferences button-layout 'close,maximize,minimize:'
+ke kanan: gsettings set org.gnome.desktop.wm.preferences button-layout ':close,maximize,minimize'
+
+membuat tampilan icon di dekstop
+install app : sudo apt-get install --no-install-recommends gnome-panel
+select item : gnome-desktop-item-edit ~/Desktop/ --create-new
+
+
+team project GIT and GIT hub
+1: sudo apt_get install git
+2: git config --global user.name "arifin"
+3: git config --global user.email "arifingdr@gmail.com
+4: git config --list
+5: pwd
+6: ls -a(mengetahui tempat .gitconfig
+7: gedit .gitconfig
+
+	GIT SUDAH TERPASANG(selanjutnya tinggal hubungkan ke git hub)
+8: mkdir git_workshop
+9: cd git_workspace/
+10: git clone https://github.com/
+11:ls
+12:touch HelloWorld.java
+13:gedit HelloWorld.java
+14:git status
+15:git add HelloWorld.java
+16:git status
+17:git commit -m "first java" HelloWorld.java
+18:git push -u origin master
+
